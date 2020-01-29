@@ -1,0 +1,93 @@
+body {
+  color: #1D1A31;
+  font-family: 'Source Sans Pro';
+  font-size: 18;
+  background-color: #F7F7F7;
+  line-height: 1.5
+}
+
+h1, h2, #cta {
+  font-family: 'Raleway';
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.link-blue {
+  color: #00798C;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+#social-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 5px;
+  font-size: 30px
+}
+
+#banner, #social {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+#banner > img {
+  border-radius: 50%
+}
+
+#cta {
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  background-color: #00798C;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2)
+}
+
+#cta > a {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
